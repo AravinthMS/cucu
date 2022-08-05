@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-05T08:58:09.282Z",
+        "line": 3,
+        "name": "To validate login with Valid username and Invalid password",
+        "description": "",
+        "id": "to-validate-the-login-fuctionality-of-facebook-application;to-validate-login-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4352646700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to lauch the Browser and hit the url",
+            "match": {
+              "location": "FaceBookLog.user_has_to_lauch_the_Browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474048600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to pass the valid username to Email field",
+            "match": {
+              "location": "FaceBookLog.user_has_to_pass_the_valid_username_to_Email_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208256400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to pass the invaild password to Password field",
+            "match": {
+              "location": "FaceBookLog.user_has_to_pass_the_invaild_password_to_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70123100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has to click the login button",
+            "match": {
+              "location": "FaceBookLog.user_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User has to navigate to invalid credentials page",
+            "match": {
+              "location": "FaceBookLog.user_has_to_navigate_to_invalid_credentials_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to close the Browser",
+            "match": {
+              "location": "FaceBookLog.user_has_to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login Fuctionality of FaceBook Application",
+    "description": "",
+    "id": "to-validate-the-login-fuctionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FaceBook.feature",
+    "tags": []
+  }
+]
