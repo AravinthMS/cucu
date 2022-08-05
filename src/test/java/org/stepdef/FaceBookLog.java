@@ -15,13 +15,12 @@ public class FaceBookLog extends LibGlobal{
 	@Given("User has to lauch the Browser and hit the url")
 	public void user_has_to_lauch_the_Browser_and_hit_the_url() {
 		browserlaunch();
+		maxwindow();
 	    urlLauch("https://www.facebook.com/");
+	    
 		
 	}
-	@When("Maximize the browser")
-	public void maximize_the_browser() {
-	   maxwindow();
-	}
+	
 
 
 	@When("User has to pass the valid username to Email field")
