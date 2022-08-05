@@ -15,6 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 glue="org.stepdef", 
 dryRun=false,
 strict=false,
+monochrome = true,
 snippets=SnippetType.UNDERSCORE,
 plugin = {"pretty","json:C:\\Users\\Aravinth MS\\Desktop\\Testing- Selnium\\New folder\\Cucumber12\\target\\Reports\\jsonreport.json"}
 )
